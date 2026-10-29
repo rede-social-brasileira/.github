@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ideias e melhorias do produto
+    url: https://github.com/rede-social-brasileira/.github/blob/main/CONTRIBUTING.md#ideias-e-melhorias-do-produto
+    about: Veja como participar do fórum no Discord.
+  - name: Dúvidas e suporte
+    url: https://github.com/rede-social-brasileira/.github/blob/main/SUPPORT.md
+    about: Escolha o canal adequado para sua dúvida.
+  - name: Relatar vulnerabilidade em privado
+    url: https://github.com/rede-social-brasileira/.github/security/advisories/new
+    about: Não publique detalhes de segurança em uma issue.

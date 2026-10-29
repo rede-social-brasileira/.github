@@ -1,0 +1,50 @@
+name: Relatar um problema
+description: Erro reproduzível no código ou na documentação.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para erros reproduzíveis. Para ideias de produto,
+        consulte o [guia de contribuição](https://github.com/rede-social-brasileira/.github/blob/main/CONTRIBUTING.md#ideias-e-melhorias-do-produto).
+
+        Não publique credenciais, dados pessoais ou conversas privadas.
+        Vulnerabilidades devem seguir o [relato privado](https://github.com/rede-social-brasileira/.github/security/advisories/new).
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual é o problema?
+      description: Informe o componente ou documento afetado.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Como reproduzir?
+      description: Descreva os passos usando exemplos que possam ser públicos.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qual era o resultado esperado?
+    validations:
+      required: true
+  - type: textarea
+    id: observado
+    attributes:
+      label: O que aconteceu?
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Versão e contexto
+      description: Informe a versão, commit ou URL e o ambiente necessário para reproduzir.
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Revisão dos exemplos
+      options:
+        - label: Retirei credenciais, dados pessoais e conversas privadas dos exemplos enviados.
+          required: true

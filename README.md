@@ -18,8 +18,8 @@ O GitHub pode usar `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`,
 tenham seus próprios arquivos do mesmo tipo. As instruções técnicas de cada
 produto ficam no respectivo repositório.
 
-O planejamento interno está privado durante a revisão. Os documentos e as
-decisões destinados à comunidade serão publicados depois de revisados.
+O planejamento interno está privado durante a revisão. A publicação dos
+documentos e das decisões destinados à comunidade depende de revisão.
 
 ## Escopo e licença
 
